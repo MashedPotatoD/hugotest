@@ -42,7 +42,7 @@ fmt.Println("hello呀")
 
 ## 5.第五部分测试插入图片
 ### 5.1测试本地图片
-![本地图片](gohugo-default-sample-hero-image.jpg)
+![本地图片](./hero.jpg)
 
 ### 5.2测试网络图片
 ![网络图片](https://images.pexels.com/photos/14454925/pexels-photo-14454925.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load)
