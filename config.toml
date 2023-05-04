@@ -1,4 +1,4 @@
-baseURL = 'http://dd.org/'
+baseURL = 'https://mashedpotatod.github.io/hugotest/'
 languageCode = 'zh-cn'
 title = 'dd hugo'
 theme = 'ananke' 
