@@ -1,0 +1,4 @@
+baseURL = 'http://dd.org/'
+languageCode = 'zh-cn'
+title = 'dd hugo'
+theme = 'ananke' 
