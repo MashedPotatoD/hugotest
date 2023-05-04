@@ -42,8 +42,11 @@ fmt.Println("hello呀")
 
 ## 5.第五部分测试插入图片
 ### 5.1测试本地图片
-![本地图片](./hero.jpg)
+![本地图片](./hero.png)
+尝试了给图片地址前加上./
+也尝试了将图片的名字简化
+但是都没有奏效,依然无法在个人博客中显示出来
 
 ### 5.2测试网络图片
 ![网络图片](https://images.pexels.com/photos/14454925/pexels-photo-14454925.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load)
-
+网络图片可以正常显示
