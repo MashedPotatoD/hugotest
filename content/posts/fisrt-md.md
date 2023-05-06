@@ -44,7 +44,7 @@ fmt.Println("hello呀")
 
 ## 5.第五部分测试插入图片
 ### 5.1测试本地图片
-![本地图片](./hero.png?raw=true&cachebuster=1)
+![本地图片](../images/hero.png?raw=true&cachebuster=1)
 尝试了给图片地址前加上./
 也尝试了将图片的名字简化
 但是都没有奏效,依然无法在个人博客中显示出来
