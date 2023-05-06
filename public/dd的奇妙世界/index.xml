@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dd hugo</title>
-    <link>https://mashedpotatod.github.io/hugotest/</link>
-    <description>Recent content on dd hugo</description>
+    <title>DD的奇妙世界s on dd hugo</title>
+    <link>https://mashedpotatod.github.io/hugotest/dd%E7%9A%84%E5%A5%87%E5%A6%99%E4%B8%96%E7%95%8C/</link>
+    <description>Recent content in DD的奇妙世界s on dd hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 05 May 2023 22:13:17 +0800</lastBuildDate><atom:link href="https://mashedpotatod.github.io/hugotest/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 May 2023 22:13:17 +0800</lastBuildDate><atom:link href="https://mashedpotatod.github.io/hugotest/dd%E7%9A%84%E5%A5%87%E5%A6%99%E4%B8%96%E7%95%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog搭建之路</title>
       <link>https://mashedpotatod.github.io/hugotest/dd%E7%9A%84%E5%A5%87%E5%A6%99%E4%B8%96%E7%95%8C/blog%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF/</link>
@@ -15,38 +15,6 @@
       <guid>https://mashedpotatod.github.io/hugotest/dd%E7%9A%84%E5%A5%87%E5%A6%99%E4%B8%96%E7%95%8C/blog%E6%90%AD%E5%BB%BA%E4%B9%8B%E8%B7%AF/</guid>
       <description>[TOC]
 一起搭建一个超级炫酷的blog吧:smile: 1.在本地搭建hugo站点 官方文档:本地建站 注意事项: draft: true代表这个.md文件是草稿，在使用hugo命令（会在public目录下生成所有的静态文件，这些文件最终在网页上展示，必须提交，而hugo站点的根目录的其他文件其实可以不用提交）发布站点时不会发布草稿文件，如果需要发布那应该将值改为true。 站点配置文件config.toml中的baseurl可以等到部署后再修改 本地部署成功之后访问localhost：1313，服务器开启时在本地改动md文件并保存浏览器会立马更新内容。部署到github上之后就不会了，需要把更新内容推送到github。 2.将站点部署到github上 官方文档:部署到github 注意事项: 将本地存储库推送到github时要注意，每个仓库都有一个分支，也可以理解为大仓库里的小仓库，要推送过去，不仅要跟线上远程仓库有关联，还要跟线上远程仓库的某个分支关联。步骤大概如下： 初始化仓库: git init 检查仓库状态是否有变: git status 提交本地版本库: git commit -m &amp;quot;msg&amp;quot; 将本地分支命名为main: git branch -M main 关联本地仓库和远程仓库: git remote add origin 仓库url 关联分支: git pull --rebase origin 分支名 推送: git push -u origin main 以上步骤只有推送到远程仓库这一步是需要联网进行的，其余都在本地，而这一步很容易受到网络影响，如果不开代理经常不成功；开了代理端口会变，尽量在进行这一步时保证代理中的主机只有443端口，删除其他端口的主机。 3.其他的参考资料 别人的搭建经验 对blog进行功能增强 文字教程 视频教程 做到这里就大功告成啦~:wink: </description>
-    </item>
-    
-    <item>
-      <title>Fisrt Md</title>
-      <link>https://mashedpotatod.github.io/hugotest/posts/fisrt-md/</link>
-      <pubDate>Thu, 04 May 2023 17:14:56 +0800</pubDate>
-      
-      <guid>https://mashedpotatod.github.io/hugotest/posts/fisrt-md/</guid>
-      <description>[TOC]
-这是我写的第一份md文档,用于学习markdarn语法 1.第一部分测试代码块 import( &amp;#34;fmt&amp;#34;, ) fmt.Println(&amp;#34;hello呀&amp;#34;) 这是行内代码fmt.Println(&amp;quot;hello呀&amp;quot;)
-2.第二部分测试列表 2.1首先是有序列表 第一 第二 第二个的第一个 第二个上的第二个 2.2然后是无序列表 一级 二级 二级 三级 3.第三部分测试倾斜,加粗和删除线 这是倾斜 这是加粗 这是倾斜+加粗 这是删除
-4.第四部分测试表格 左对齐 居中 居中 右对齐 1 2 3 4 5 6 7 8 5.第五部分测试插入图片 5.1测试本地图片 尝试了给图片地址前加上./ 也尝试了将图片的名字简化 但是都没有奏效,依然无法在个人博客中显示出来
-5.2测试网络图片 网络图片可以正常显示
-6.第六部分测试插入链接 这是一个百度的链接
-7.第七部分测试表情 :smile: :heart: :wink: :thumbsup: :thumbsdown: 成功啦~:wink:
-8.第八部分测试给文字变色 这段文字会变成青色
-9.第九部分测试强制换行 听说要两个空格和一个回车
-成功了耶~</description>
-    </item>
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://mashedpotatod.github.io/hugotest/posts/my-first-post/</link>
-      <pubDate>Thu, 04 May 2023 10:02:31 +0800</pubDate>
-      
-      <guid>https://mashedpotatod.github.io/hugotest/posts/my-first-post/</guid>
-      <description>Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!
-这是我继续添加的中文内容
-哎哟不错哦，中文可以直接添加
-而且不需要在浏览器中刷新页面，只要保证服务器运行，在编辑器中保存输入的内容就会自动同步到浏览器中
-现在托管到github上之后就没用了，需要把最近的更新推送到giuthub上面</description>
     </item>
     
   </channel>
