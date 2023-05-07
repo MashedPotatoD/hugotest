@@ -44,10 +44,11 @@ fmt.Println("hello呀")
 
 ## 5.第五部分测试插入图片
 ### 5.1测试本地图片
-![本地图片](../images/hero.png?raw=true&cachebuster=1)
+![本地图片](../../images/hero.png)
 尝试了给图片地址前加上./
 也尝试了将图片的名字简化
 但是都没有奏效,依然无法在个人博客中显示出来
+最终解决，hugo命令构建站点后依据图片在public文件夹下的位置写路径
 
 ### 5.2测试网络图片
 ![网络图片](https://images.pexels.com/photos/14454925/pexels-photo-14454925.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load)
